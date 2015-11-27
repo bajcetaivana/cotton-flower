@@ -1,0 +1,238 @@
+body{
+	margin:0;
+	background: #D7DADB;
+	padding:0;
+}
+
+.wrapper{
+	width:960px;
+	margin:0 auto;
+	background-color: white;
+}
+
+.header{
+	/*height:110px;*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	/*position: fixed;*/
+}
+
+.nav{
+	/*float: left;*/
+	/*margin-left: 120px;*/
+	height: 110px;
+	position: fixed;
+	background-color: white;
+	width:840px;
+	padding-left: 120px;
+	
+
+
+}
+
+.col{
+	float: left;
+	padding: 50px 22px 0 22px;
+
+}
+
+.col a{
+	text-decoration: none;
+	color: black;
+}
+
+#col1{
+	float: left;
+	padding:20px 21px 0 21px; 
+}
+
+#logo{
+	background-image: url(../images/logo.gif);
+	width: 82px;
+	height: 68px;
+	background-repeat: no-repeat;
+}
+.nav a:hover{
+	color:#BCAD6D;
+	}
+
+
+.nav a:active{
+	color:#BCAD6D;
+}
+
+.fake{
+	height: 110px;
+	background-color: white;
+	width:960px;
+	margin: 0px;
+}
+
+.hero{
+	clear: both;
+}
+
+.hero .hb{
+	background-image: url(../images/2.jpg);
+	width: 960px;
+	height:398px;
+	
+}
+
+
+.hero h1{
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 36px;
+	/*margin: 0 auto;*/
+	text-align: center;
+	padding-top: 40px;
+	margin-top: 0px;
+}
+
+
+.moto{
+	float: left;
+
+}
+
+.motolevo{
+	background-image: url(../images/levo.png);
+	width:186px;
+	height:267px;
+	float: left;}
+	
+
+.motocentar{
+	background-color: white;
+	margin: 0px;
+	width: 590px;
+	height:267px;
+	float: left;
+}
+
+.moto h1{
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 30px;
+	margin: 0 80px;
+	padding-top: 20px;
+	line-height: 1;
+	}
+
+
+.moto h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	margin: 20px 80px;
+	line-height: 1.5;
+}
+
+.motodesno{
+background-image: url(../images/desno.png);
+width:184px;
+height:267px;
+float: left;}
+
+#shop{
+	margin: 0 auto;
+	float:left;
+	text-align: center;
+	background-color: white;
+}
+
+.group{
+	float:left;
+	margin:30px 19px;
+	box-shadow: 0px 0px 5px  #aaa;
+}
+
+
+#shop a{
+	text-decoration: none;
+	color:#BCAD6D; 
+}
+
+#spic1{
+	background-image: url(../images/spic.jpg);
+	width: 282px;
+	height: 282px;
+	background-repeat: no-repeat;
+}
+
+.field{
+	background: white;
+	margin: 0px;
+	padding:0px;
+	height:180px;
+}
+
+.field h2{
+	margin: 0px;
+	padding: 10px;
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 50px;
+}
+
+.field h3{
+	margin: 0px 75px;
+	padding: 10px 30px;
+	border: 1px solid #BCAD6D;
+	/*box-sizing: borderbox;*/
+	float:left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+#spic2{
+	background-image: url(../images/spic2.jpg);
+	width: 282px;
+	height: 282px;
+	background-repeat: no-repeat;
+}
+
+#spic3{
+	background-image: url(../images/spic3.jpg);
+	width: 282px;
+	height: 282px;
+	background-repeat: no-repeat;
+}
+
+
+#main{
+	float: left;
+	
+}
+
+.grupalevo{
+	background-image: url(../images/levogrupa.jpg);
+	width:398px;
+	height:410px;
+	background-repeat: no-repeat;
+	float: left;
+}
+.content{
+	float:left;
+	background-color: #BCAD6D;
+	height:410px;
+	width:400px;
+}
+#main h1{
+	margin: 0px;
+	padding: 10px;
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 30px;
+
+}
+
+#main p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.grupadesno{
+	background-image: url(../images/desnogrupa.jpg);
+	width:265px;
+	height:410px;
+	background-repeat: no-repeat;
+	float: left;
+}
